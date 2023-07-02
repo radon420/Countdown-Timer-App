@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Launch Counter</title>
+  </head>
+  <body onload="timer()">
+    <div id="background">
+      <img id="img2" src="./images/bg-stars.svg" alt="" />
+      <img id="img3" src="./images/pattern-hills.svg" alt="" />
+      <div id="text">WE'RE LAUNCHING SOON</div>
+      <div id="timer">
+        <div class="container">
+          <div class="timer-container">
+            <p id="day-container">00</p>
+            <div class="div1"></div>
+            <div class="div2"></div>
+          </div>
+          <p id="day-label">DAYS</p>
+        </div>
+        <div class="container">
+          <div class="timer-container">
+            <p id="hour-container">00</p>
+            <div class="div1"></div>
+            <div class="div2"></div>
+          </div>
+          <p id="hour-label">HOURS</p>
+        </div>
+        <div class="container">
+          <div class="timer-container">
+            <p id="minute-container">00</p>
+            <div class="div1"></div>
+            <div class="div2"></div>
+          </div>
+          <p id="minute-label">MINUTES</p>
+        </div>
+        <div class="container">
+          <div class="timer-container">
+            <p id="second-container">00</p>
+            <div class="div1"></div>
+            <div class="div2"></div>
+          </div>
+          <p id="second-label">SECONDS</p>
+        </div>
+      </div>
+      <div id="social-media-icon">
+        <a href="https://www.facebook.com/"
+          ><img src="./images/icon-facebook.svg" alt=""
+        /></a>
+        <a href="https://www.pinterest.com/"
+          ><img src="./images/icon-pinterest.svg" alt=""
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="./images/icon-instagram.svg" alt=""
+        /></a>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
